@@ -6,5 +6,5 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.Optional;
 
 public interface TourPackageRepository extends CrudRepository<TourPackage, String> {
-    Optional<TourPackage> findByName(String tourPackageName);
+    Optional<TourPackage> findByName(String name);
 }

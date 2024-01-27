@@ -136,4 +136,5 @@ public class Tour {
     public void setRegion(Region region) {
         this.region = region;
     }
+
 }
